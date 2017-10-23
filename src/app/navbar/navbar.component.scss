@@ -1,0 +1,20 @@
+//.navbar {
+//  position: fixed;
+//  width: 100%;
+//  z-index: 100;
+//}
+.navbar {
+  position: fixed !important;
+  top:-100%;
+  width: 100% !important;
+  z-index: 10 !important;
+  transition: all 1s;
+}
+.hide {
+  opacity:0;
+  top:-10%;
+}
+.show {
+  opacity:1;
+  top:0;
+}

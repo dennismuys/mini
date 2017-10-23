@@ -1,0 +1,32 @@
+table {
+  width: 100vw;
+}
+td {
+  //position: relative;
+  background-image: url('../../assets/images/mini.jpg');
+  background-position: center;
+  background-size: cover;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td .content {
+  //position: absolute;
+  //top: 0;
+  //bottom: 0;
+  //left: 0;
+  //right: 0;
+  //background: gold;
+}
+
+.small{
+  width:16.6666%;
+}
+.medium{
+  width: 25%;
+}
+.large{
+  width:50%;
+}

@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'GlyphaLTStd';
+  src: url('assets/fonts/glypha/GlyphaLTStd.eot');
+  src: url('assets/fonts/glypha/GlyphaLTStd.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/glypha/GlyphaLTStd.woff') format('woff'),
+  url('assets/fonts/glypha/GlyphaLTStd.ttf') format('truetype'),
+  url('assets/fonts/glypha/GlyphaLTStd.svg#GlyphaLTStd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+}
+html, body {
+  font-family: "GlyphaLTStd" !important;
+}
+
+
+.underline {
+  text-decoration: underline !important;
+}
+a, button {
+  cursor: pointer;
+}
