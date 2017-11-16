@@ -1,0 +1,29 @@
+table {
+    width: 100vw;
+    height: 300px;
+}
+td {
+    background-position: center;
+    background-size: cover;
+}
+td:after {
+    content: '';
+    display: block;
+    margin-top: 30%;
+}
+.spacer {
+    height: 75px;
+}
+.row {
+    width: 100vw;
+}
+.chapter-text {
+    padding-right: 50px;
+}
+@media (max-width: 767px) {
+    .chapter-text {
+        text-align: center;
+        padding-right: 15px;
+        padding-top: 20px;
+    }
+}

@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {NavigatorService} from "./services/navigator.service";
 import { CollageComponent } from './collage/collage.component';
 import { LanguageSwitcherComponent } from './components/language-switcher/language-switcher.component';
+import { ChapterOneComponent } from './chapter-one/chapter-one.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -25,7 +26,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     IntroComponent,
     NavbarComponent,
     CollageComponent,
-    LanguageSwitcherComponent
+    LanguageSwitcherComponent,
+    ChapterOneComponent
   ],
   imports: [
     BrowserModule,

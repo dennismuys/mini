@@ -19,10 +19,10 @@
 
   <div class="splash-overlay"></div>
 
-  <video class="video-src" autoplay loop muted>
+  <video *ngIf="!isIE" class="video-src" autoplay loop muted>
     <source src="../../assets/video/video.mp4" type="video/mp4">
     video tag is not supported in this browser
   </video>
 
-  <!--<img class="video-src" src="../../assets/images/mini.jpg"/>-->
+  <img *ngIf="isIE" class="video-src" src="../../assets/images/mini.jpg"/>
 </div>
